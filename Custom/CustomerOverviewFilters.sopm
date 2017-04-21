@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.1">
+    <Name>CustomerOverviewFilters</Name>
+    <Version>5.0.0</Version>
+    <Vendor>Complemento</Vendor>
+    <URL>http://www.complemento.net.br/otrs</URL>
+    <License>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</License>
+    <Description Lang="en">Allows you to customize the filters of Customer Ticket Overview Screen</Description>
+    <Framework>5.x.x</Framework>
+    <IntroInstall Lang="en" Title="Installation Information" Type="post">
+    AddOn Manuals:
+    &lt;br/&gt;
+    &lt;ul&gt;
+	    &lt;li&gt;
+			&lt;a target="_blank" href="https://docs.google.com/document/d/1C40dHEkOxY-NJ_eBjjgB4NIjVPc9Vs_FcwsOC67htgY/"&gt;Portuguese&lt;/a&gt;
+	    &lt;/li&gt;
+    &lt;/ul&gt;
+    </IntroInstall>
+    <Filelist>
+        <File Location="Custom/CustomerOverviewFilters.sopm" Permission="644"></File>
+        <File Location="Custom/Kernel/Modules/CustomerTicketOverview.pm" Permission="644"></File>
+        <File Location="Kernel/Config/Files/CustomerOverviewFilters.xml" Permission="644"></File>
+    </Filelist>
+</otrs_package>

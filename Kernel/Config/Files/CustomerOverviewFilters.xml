@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otrs_config version="1.0" init="Application">
+    <ConfigItem Name="CustomerOverviewFilters###1000" Required="0" Valid="1">
+        <Description Translatable="1">Filter for Customer Overview Screen.</Description>
+        <Group>Complemento-CustomerInterfaceImprovements</Group>
+        <SubGroup>Filters</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Name">All</Item>
+                <Item Key="StateType">
+                    <Array>
+    
+                    </Array>
+                </Item>
+                <Item Key="States">
+                    <Array>
+    
+                    </Array>
+                </Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+    <ConfigItem Name="CustomerOverviewFilters###1100" Required="0" Valid="1">
+        <Description Translatable="1">Filter for Customer Overview Screen.</Description>
+        <Group>Complemento-CustomerInterfaceImprovements</Group>
+        <SubGroup>Filters</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Name">Open</Item>
+                <Item Key="StateType">
+                    <Array>
+                        <Item>new</Item>
+                        <Item>open</Item>
+                        <Item>pending reminder</Item>
+                    </Array>
+                </Item>
+                <Item Key="States">
+                    <Array>
+    
+                    </Array>
+                </Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+    <ConfigItem Name="CustomerOverviewFilters###9999" Required="0" Valid="1">
+        <Description Translatable="1">Filter for Customer Overview Screen.</Description>
+        <Group>Complemento-CustomerInterfaceImprovements</Group>
+        <SubGroup>Filters</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Name">Closed</Item>
+                <Item Key="StateType">
+                    <Array>
+                        <Item>Closed</Item>
+                    </Array>
+                </Item>
+                <Item Key="States">
+                    <Array>
+    
+                    </Array>
+                </Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+    <ConfigItem Name="CustomerOverviewFilters###1300" Required="0" Valid="1">
+        <Description Translatable="1">Filter for Customer Overview Screen.</Description>
+        <Group>Complemento-CustomerInterfaceImprovements</Group>
+        <SubGroup>Filters</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Name">Resolvido</Item>
+                <Item Key="StateType">
+                    <Array>
+                    </Array>
+                </Item>
+                <Item Key="States">
+                    <Array>
+                        <Item>Resolvido</Item>    
+                        <Item>Resolvido com solução de contorno</Item>    
+                    </Array>
+                </Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+    <ConfigItem Name="CustomerOverviewFilters###1301" Required="0" Valid="0">
+        <Description Translatable="1">Filter for Customer Overview Screen.</Description>
+        <Group>Complemento-CustomerInterfaceImprovements</Group>
+        <SubGroup>Filters</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Name">Filter X</Item>
+                <Item Key="StateType">
+                    <Array>
+                    </Array>
+                </Item>
+                <Item Key="States">
+                    <Array>
+                    </Array>
+                </Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+    <ConfigItem Name="CustomerOverviewFilters###1302" Required="0" Valid="0">
+        <Description Translatable="1">Filter for Customer Overview Screen.</Description>
+        <Group>Complemento-CustomerInterfaceImprovements</Group>
+        <SubGroup>Filters</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Name">Filter X</Item>
+                <Item Key="StateType">
+                    <Array>
+                    </Array>
+                </Item>
+                <Item Key="States">
+                    <Array>
+                    </Array>
+                </Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+    <ConfigItem Name="CustomerOverviewFilters###1303" Required="0" Valid="0">
+        <Description Translatable="1">Filter for Customer Overview Screen.</Description>
+        <Group>Complemento-CustomerInterfaceImprovements</Group>
+        <SubGroup>Filters</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Name">Filter X</Item>
+                <Item Key="StateType">
+                    <Array>
+                    </Array>
+                </Item>
+                <Item Key="States">
+                    <Array>
+                    </Array>
+                </Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+    <ConfigItem Name="CustomerOverviewFilters###1303" Required="0" Valid="0">
+        <Description Translatable="1">Filter for Customer Overview Screen.</Description>
+        <Group>Complemento-CustomerInterfaceImprovements</Group>
+        <SubGroup>Filters</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Name">Filter X</Item>
+                <Item Key="StateType">
+                    <Array>
+                    </Array>
+                </Item>
+                <Item Key="States">
+                    <Array>
+                    </Array>
+                </Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+
+</otrs_config>
